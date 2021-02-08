@@ -1,0 +1,43 @@
+html, body{
+    height:100%;
+}
+body{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#faf5ef;
+}
+#image-box, #text-box{
+    flex-grow:1;
+    width:50%;
+}
+#image-icons{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+#icons{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+img{
+    border-radius: 50%;
+    width:200px;
+}
+i{
+    color:rgb(245, 103, 21);
+}
+i:hover{
+    transform:scale(1.5);
+}
+#text-box{
+    font-family: 'Crimson Text', serif;
+    margin-right:5%;
+}
+h1{
+    font-size:3em;
+}
+p{
+    font-size: 1.5em;
+}
